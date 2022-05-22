@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Open Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Simple Calculator | HTML & JQuery</title>
+
+    <!-- JQuery Script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./script/calculator.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator-container">
+        <div class="calculator">
+          <div class="calculator__display">
+            <div id="display" class="calculator__display-top">0</div>
+            <div id="result" class="calculator__display-bottom">0</div>
+          </div>
+          <div class="calculator__key">
+            <button
+              id="clear"
+              value="c"
+              class="key calculator__key-2-column text-pink"
+            >
+              c
+            </button>
+            <button
+              id="divide"
+              value="/"
+              class="key calculator__key-item-operator"
+            >
+              /
+            </button>
+            <button
+              id="multiply"
+              value="*"
+              class="key calculator__key-item-operator"
+            >
+              *
+            </button>
+            <button id="seven" value="7" class="key calculator__key-item">
+              7
+            </button>
+            <button id="eight" value="8" class="key calculator__key-item">
+              8
+            </button>
+            <button id="nine" value="9" class="key calculator__key-item">
+              9
+            </button>
+            <button
+              id="plus"
+              value="+"
+              class="key calculator__key-item-operator"
+            >
+              +
+            </button>
+            <button id="four" value="4" class="key calculator__key-item">
+              4
+            </button>
+            <button id="five" value="5" class="key calculator__key-item">
+              5
+            </button>
+            <button id="six" value="6" class="key calculator__key-item">
+              6
+            </button>
+            <button
+              id="minus"
+              value="-"
+              class="key calculator__key-item-operator"
+            >
+              -
+            </button>
+            <button id="one" value="1" class="key calculator__key-item">
+              1
+            </button>
+            <button id="two" value="2" class="key calculator__key-item">
+              2
+            </button>
+            <button id="three" value="3" class="key calculator__key-item">
+              3
+            </button>
+            <button
+              id="dot"
+              value="."
+              class="key calculator__key-item-operator"
+            >
+              .
+            </button>
+            <button id="zero" value="0" class="key calculator__key-2-column">
+              0
+            </button>
+            <button
+              id="equals"
+              value="="
+              class="calculator__key-2-column text-pink"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
